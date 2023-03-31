@@ -1,3 +1,12 @@
+window.addEventListener('DOMContentLoaded', () => {
+  const startBtn = document.getElementById('start-btn');
+  if (startBtn) {
+    startBtn.addEventListener('click', () => {
+      // Start button logic here
+    });
+  }
+});
+
 document.getElementById('start-btn').addEventListener('click', () => {
   // Remove all empty cans from the canvas
   emptyCans.forEach(emptyCan => canvas.remove(emptyCan.object));
