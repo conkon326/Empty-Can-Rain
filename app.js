@@ -1,4 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
+  const emptyCans = []; // 空の缶を格納する配列を定義
+
   const startBtn = document.getElementById('start-btn');
   if (startBtn) {
     startBtn.addEventListener('click', () => {
